@@ -3,8 +3,8 @@
 **Name of your app** là một bài tập 1 tại môn UDPT.
 
 Thành viên:
-* [ ] **MSSV1** Tên sinh viên 1 (tên tài khoản github)
-* [ ] **MSSV2** Tên sinh viên 2 (tên tài khoản github)
+* [ ] 1412105 Ngô Tiến Dũng (1412105)
+* [ ] 1412114 Huỳnh Quang Dự (Quangdu96)
 
 URL: **URL hosting của bài tập**
 
