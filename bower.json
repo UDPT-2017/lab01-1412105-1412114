@@ -1,0 +1,21 @@
+{
+  "name": "lab01-1412105-1412114",
+  "description": "This is my Lab01 project",
+  "main": "index.js",
+  "authors": [
+    "1412105-1412114"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}

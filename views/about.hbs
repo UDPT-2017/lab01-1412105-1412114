@@ -1,0 +1,23 @@
+<div id="map" style="width:100%;height:300px;float:right;"></div>
+    <script>
+    function myMap() {
+      var mapCanvas = document.getElementById("map");
+      var myCenter = new google.maps.LatLng(10.7626133,106.6820346);
+      var mapOptions = {center: myCenter, zoom: 15};
+      var map = new google.maps.Map(mapCanvas,mapOptions);
+      var marker = new google.maps.Marker({
+        position: myCenter,
+        animation: google.maps.Animation.BOUNCE
+      });
+      marker.setMap(map);
+    }
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBScyASuIV6T9qeDPk4X7SZst36122JqNo&callback=myMap"></script>
+<div>
+  <h5>Sinh vien 1: Ngô Tiến Dũng</h5>
+  <h5>MSSV: 1412105</h5>
+  <a href="https://www.facebook.com/ngo.tiendung.589"><img src="img/facebook-256.png" width="30px"></a></br>
+  <h5>Sinh vien 1: Huỳnh Quang Dự</h5>
+  <h5>MSSV: 1412114</h5>
+  <a href="https://www.facebook.com/ACE.HQD?fref=ufi"><img src="img/facebook-256.png" width="30px"></a>
+</div>

@@ -1,0 +1,86 @@
+      body{
+        background-color: #eaecf2;
+      }
+      @media (max-width: 992px) {
+          .navbar-toggle {
+              display: inline-block;
+              margin-top: 5px;
+              <!-- lma các icon ben trai luon can ngang -->
+          }
+          .collapse.in {
+              display: block!important;
+              <!-- Nav khong hien thi khi bam collapse -->
+          }
+          .collapse {
+              display: none!important;
+          }
+          #bs-example-navbar-collapse-1 {
+              display: none;
+              <!-- Nav khong hien thi khi 992px -->
+          }
+      }
+
+      @media (max-width: 768px) {
+          #left_content {
+              display: none;
+          }
+      }
+
+      #left_fillter {
+          background-color: #dfdfdf;
+          padding: 5px 5px;
+      }
+
+      #left_content {
+          margin-top: 0px;
+          padding-left: 0px;
+          padding-right: 0px;
+      }
+
+      #footer {
+          display: inline-block;
+          width: 100%;
+          margin: 15px 0px 0px 50px;
+          background-color: #eaecf2;
+      }
+
+      #carousel-example-generic {
+          height: 526px;
+          padding-right: 40px;
+          padding-left: 40px;
+      }
+
+      .navbar {
+          margin-bottom: 5px;
+      }
+
+      ul.nav.navbar-nav.navbar-header.navbar-right {
+          display: ruby-text;
+      }
+
+      .navbar-brand>img {
+          display: block;
+          height: inherit;
+      }
+
+      .navbar-brand {
+          float: left;
+          height: 50px;
+          padding: 0px 15px;
+          font-size: 18px;
+          line-height: 20px;
+      }
+      .carousel-inner>.item>img {
+          height: 526px;
+          width: 100%;
+      }
+
+      .thumbnail a>img, .thumbnail>img {
+          margin-right: auto;
+          margin-left: auto;
+          height: 185px;
+          width: 100%;
+      }
+      ul.nav.navbar-nav.navbar-header.navbar-right {
+              display: inline-flex;
+          }
